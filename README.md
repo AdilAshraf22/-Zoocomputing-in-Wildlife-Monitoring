@@ -79,7 +79,7 @@ private static final String DB_USER = "root";
 private static final String DB_PASSWORD = "your_password";
 ```
 
-   •  Compile and run the ZooWildlifeMonitoringApp.java file.
+   • Compile and run the ZooWildlifeMonitoringApp.java file.
 
 4. Run the Application:
 
