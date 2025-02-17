@@ -35,13 +35,13 @@ The Zoocomputing in Wildlife Monitoring project is a Java-based desktop applicat
    git clone https://github.com/your-username/zoocomputing-wildlife-monitoring.git
    cd zoocomputing-wildlife-monitoring
 
-3. Set up MySQL Database:
+2. Set up MySQL Database:
 
-• Install MySQL on your system.
+   • Install MySQL on your system.
 
-• Create a database named - zoo
+   • Create a database named - zoo
 
-• Run the following SQL commands to create the necessary tables
+   • Run the following SQL commands to create the necessary tables
 ```sh
 CREATE TABLE IF NOT EXISTS WildlifeMonitoring (
     ID INT AUTO_INCREMENT PRIMARY KEY,
@@ -68,44 +68,44 @@ CREATE TABLE IF NOT EXISTS ZooVisitors (
 
 3. Compile and Run the Java Application:
 
-• Open the project in your preferred IDE (IntelliJ IDEA or Eclipse).
+   • Open the project in your preferred IDE (IntelliJ IDEA or Eclipse).
 
-• Ensure the MySQL JDBC driver is added to your project's classpath.
+   • Ensure the MySQL JDBC driver is added to your project's classpath.
 
-• Update the database credentials in the ZooWildlifeMonitoringApp.java file:
+   • Update the database credentials in the ZooWildlifeMonitoringApp.java file:
 ```sh
 private static final String DB_URL = "jdbc:mysql://localhost:3306/zoo";
 private static final String DB_USER = "root";
 private static final String DB_PASSWORD = "your_password";
 ```
 
-•  Compile and run the ZooWildlifeMonitoringApp.java file.
+   •  Compile and run the ZooWildlifeMonitoringApp.java file.
 
 4. Run the Application:
 
-• The application will launch with a GUI interface.
+   • The application will launch with a GUI interface.
 
-• Use the tabs to navigate between Animal Management, Staff Management, and Visitor Management.
+   • Use the tabs to navigate between Animal Management, Staff Management, and Visitor Management.
 
 # 🎮 Usage Instructions
 
 1. Animal Management:
 
-• Add new animals by entering species, count, last observed date, and location.
+   • Add new animals by entering species, count, last observed date, and location.
 
-• View and update existing animal records.
+   • View and update existing animal records.
 
 2. Staff Management:
 
-• Add new staff members by entering their name, role, and salary.
+   • Add new staff members by entering their name, role, and salary.
 
-• View and update staff records.
+   • View and update staff records.
 
 3. Visitor Management:
 
-• Add new visitors by entering their name and ticket number.
+   • Add new visitors by entering their name and ticket number.
 
-• View visitor records.
+   • View visitor records.
 
 4. Refresh Data: Click the refresh button to update the displayed records in real-time.
 
