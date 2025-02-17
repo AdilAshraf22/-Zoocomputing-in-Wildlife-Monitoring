@@ -41,7 +41,7 @@ The Zoocomputing in Wildlife Monitoring project is a Java-based desktop applicat
 
 • Create a database named - zoo
 
-Run the following SQL commands to create the necessary tables
+• Run the following SQL commands to create the necessary tables
 ```sh
 CREATE TABLE IF NOT EXISTS WildlifeMonitoring (
     ID INT AUTO_INCREMENT PRIMARY KEY,
