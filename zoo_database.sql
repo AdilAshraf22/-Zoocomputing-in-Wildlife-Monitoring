@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS WildlifeMonitoring (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    Species VARCHAR(100),
+    Count INT,
+    LastObserved DATE,
+    Location VARCHAR(100),
+    AnimalType VARCHAR(50)
+);
+
+CREATE TABLE IF NOT EXISTS ZooStaff (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(100),
+    Role VARCHAR(100),
+    Salary DECIMAL(10, 2)
+);
+
+CREATE TABLE IF NOT EXISTS ZooVisitors (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(100),
+    TicketNo VARCHAR(50)
+);
