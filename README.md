@@ -32,7 +32,7 @@ The Zoocomputing in Wildlife Monitoring project is a Java-based desktop applicat
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/zoocomputing-wildlife-monitoring.git
+   git clone https://github.com/AdilAshraf22/-Zoocomputing-in-Wildlife-Monitoring.git
    cd zoocomputing-wildlife-monitoring
 
 2. Set up MySQL Database:
