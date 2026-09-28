@@ -76,7 +76,7 @@ CREATE TABLE IF NOT EXISTS ZooVisitors (
 ```sh
 private static final String DB_URL = "jdbc:mysql://localhost:3306/zoo";
 private static final String DB_USER = "root";
-private static final String DB_PASSWORD = "your_password";
+private static final String DB_PASSWORD = "<your_mysql_password>";
 ```
 
    • Compile and run the ZooWildlifeMonitoringApp.java file.
