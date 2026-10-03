@@ -32,11 +32,11 @@ The system also includes **role-based access control (RBAC)** to provide differe
 
 The application provides three different access levels:
 
-| Access Role | Permissions |
-|-------------|-------------|
-| **ADMIN** | Full access including Add, Update, Delete, salary editing, and reports |
-| **STAFF** | Add, Update, and View access; Delete and salary editing are disabled |
-| **VIEWER** | View-only access |
+| Access Role | Permissions                                                            |
+| ----------- | ---------------------------------------------------------------------- |
+| **ADMIN**   | Full access including Add, Update, Delete, salary editing, and reports |
+| **STAFF**   | Add, Update, and View access; Delete and salary editing are disabled   |
+| **VIEWER**  | View-only access                                                       |
 
 The access role determines which operations are available to the logged-in user.
 
@@ -212,11 +212,11 @@ ZooWildlifeMonitoringApp.java
 
 The project includes the following accounts for local academic demonstration:
 
-| Username | Password | Access Role |
-|----------|----------|-------------|
-| `admin` | `admin123` | ADMIN |
-| `staff` | `staff123` | STAFF |
-| `viewer` | `viewer123` | VIEWER |
+| Username | Password    | Access Role |
+| -------- | ----------- | ----------- |
+| `admin`  | `admin123`  | ADMIN       |
+| `staff`  | `staff123`  | STAFF       |
+| `viewer` | `viewer123` | VIEWER      |
 
 These accounts are intended for **local academic demonstration purposes only**.
 
@@ -378,6 +378,7 @@ You can open a pull request with enhancements, improvements, or bug fixes.
 # 📜 License
 
 This project is open-source and available under the MIT License.
+
 
 
 
