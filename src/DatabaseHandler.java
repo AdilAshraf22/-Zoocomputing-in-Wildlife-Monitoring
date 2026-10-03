@@ -1,7 +1,7 @@
 import java.sql.*;
 
 public class DatabaseHandler {
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/zoo";
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/";
     private static final String DB_USER = "root";
     private static final String DB_PASSWORD = System.getenv("DB_PASSWORD");
 
